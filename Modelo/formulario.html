@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Red Social</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/estilo.css" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="../css/estilotab.css" type="text/css" media="screen" />-->
+<!--<link rel="stylesheet" href="../js/floatbox/floatbox.css" type="text/css" media="screen" />-->
+<script type="text/javascript" src="../js/jquery.js"></script>
+<style>
+    #hh
+    {
+       color: #fff; 
+    }
+</style>
+</head>
+
+<body>
+<center><h1 id="hh">Social System</h1></center>
+<br><br><br><br>
+<h4 id="hh">Mostrar mis Fotos</h4>
+<center>
+<form action="procesarf.php" enctype="multipart/form-data" method="post">
+    <label id="hh" for="imagen">Imagen:</label>
+    <input id="imagen" name="imagen" size="30" type="file" id="btnenviar" /><br>
+    <label id="hh" for="imagen">Descripción:</label>
+<input type="text" name="desc" size="30" id="descr"/>
+<input name="submit" type="submit" value="Guardar" /><img src="../imagenes/album.png" height="20px" width="20px" alt=""/>
+</form>
+</center>
+    
+    
+    
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+    	//var imag;
+        //var desc;
+        //$("#btnenviar").text('vale');
+        //$("#descr").va
+        $("#descr").val(" ");
+        var sub;
+        //$('#btnenviar').attr({ value: 'asdasdasd' }); 
+        sub = $('#btnenviar');  
+        sub.replaceWith(sub.clone(true)); 
+        
+        //input.replaceWith(input.val('').clone(true));
+        
+        
+        
+                                                                  
+	});
+</script>
+</html>
