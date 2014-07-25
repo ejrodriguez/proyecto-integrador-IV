@@ -1,6 +1,9 @@
 proyecto-integrador-IV
 ======================
 
-Red social
-Prueba, 
-Github 
+Integrantes:
+Edison Rodriguez
+Freddy Roman
+Alex Villa 
+Luis Sanchez
+Geovanny Guaman
